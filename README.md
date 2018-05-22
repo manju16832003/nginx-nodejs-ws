@@ -16,7 +16,7 @@
     server {
         listen 8020;
         location / {
-            proxy_pass http://192.168.1.215:8010;
+            proxy_pass http://<YourLocalIP>:8010;
             proxy_http_version 1.1;
             proxy_set_header Upgrade $http_upgrade;
             proxy_set_header Connection "upgrade";
@@ -31,16 +31,16 @@
 
     Lets test it out
 
-    `node_modules/wscat/bin/wscat --connect ws://<YourIP>:8020`
+    `node_modules/wscat/bin/wscat --connect ws://<YourLocalIP>:8020`
 
     OR
 
-    `node_modules/wscat/bin/wscat -c ws://<YourIP>:8020`
+    `node_modules/wscat/bin/wscat -c ws://<YourLocalIP>:8020`
 
     Example: Run
 
     ```
-     > node_modules/wscat/bin/wscat --connect ws://<MyIP>:8020
+     > node_modules/wscat/bin/wscat --connect ws://<YourLocalIP>:8020
         connected (press CTRL+C to quit)
         > hello
         < Server received from client: hello
