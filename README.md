@@ -45,3 +45,9 @@
         > 
     ```
 
+
+# References
+
+https://www.nginx.com/blog/websocket-nginx/
+
+
