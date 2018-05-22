@@ -50,4 +50,10 @@
 
 https://www.nginx.com/blog/websocket-nginx/
 
+https://chrislea.com/2013/02/23/proxying-websockets-with-nginx/
+
+https://oroinc.com/b2b-ecommerce/forums/topic/how-to-configure-nginx-for-websocket
+
+
+
 
