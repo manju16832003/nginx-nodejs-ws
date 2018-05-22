@@ -1,16 +1,14 @@
 # HOW TO RUN
 
-## Clone the repo
+- Clone the repo
 
-## NPM Install
+- `cd nginx-nodejs-ws > NPM Install`
 
-## Run the WS-Server (ws-server.js)
+- Run WS-Server that is `node ws-server.js` from the current directory. 
 
-    First run the ws-server.js `> node ws-server.js`
-
-    that should print 'Server started' and listening on port 8010 and waiting for a client to connect to it. When it receives a client request, it ecohes and sends it back to client.
-
-## Configure Nginx : Nginx proxy configuration
+ that should print 'Server started' and listening on port 8010 and waiting for a client to connect to it. When it receives a client request, it ecohes and sends it back to client.
+ 
+- Configure Nginx : Nginx proxy configuration
 
     ```
     server {
@@ -25,7 +23,7 @@
     }
     ```
 
-## Test: We can test this with wscat 
+- Test: We can test this with wscat 
 
     We have already installed wscat lib in the first step (`npm install`)
 
