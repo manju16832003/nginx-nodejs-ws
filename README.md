@@ -1,4 +1,8 @@
-# HOW TO RUN
+# Node.js Nginx WebSocket Reverse Proxy set up
+
+Demonstration of setting up Nginx nodekjs websocket reverse proxy.
+
+## HOW TO RUN
 
 - Clone the repo
 
